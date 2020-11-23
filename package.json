@@ -1,8 +1,8 @@
 {
-  "name": "wangyangvuetest",
+  "name": "wangyangtestvue",
   "version": "1.0.1",
-  "description": "study vue",
-  "main": "index.js",
+  "description": "study",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
