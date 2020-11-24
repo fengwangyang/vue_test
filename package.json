@@ -1,17 +1,19 @@
 {
   "name": "wangyangtestvue",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "study",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack"
+    "dev": "webpack serve"
   },
   "repository": "https://github.com/fengwangyang/vue_test.git",
   "author": "wangyang_npm",
   "license": "MIT",
   "dependencies": {
+    "html-webpack-plugin": "^4.5.0",
     "webpack": "^5.6.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
   }
 }

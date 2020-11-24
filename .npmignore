@@ -1,0 +1,24 @@
+.DS_Store
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage/
+/test/e2e/reports/
+./WechatMall/dist/*
+selenium-debug.log
+dist/
+index.html
+main.js
+package.json
+README.md
+webpack.config.js
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+package-lock.json
+.gitignore

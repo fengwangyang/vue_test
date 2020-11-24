@@ -1,7 +1,8 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: "development", // "production" | "development" | "none"  // 告诉webpack是生产环境还是开发环境.
-  entry: "./src/index.js", // string | object | array  // 默认 ./src
+  entry: "./main.js", // string | object | array  // 默认 ./src
   // 入口起点，可以指定多个入口起点
   output: {
     // 输出，只可指定一个输出配置
@@ -13,4 +14,10 @@ module.exports = {
     // //导出库的名称
     // libraryTarget: "umd", // universal module definition    // the type of the exported library
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+        template: './index.html',
+        title: 'test'
+    })
+]
 }
